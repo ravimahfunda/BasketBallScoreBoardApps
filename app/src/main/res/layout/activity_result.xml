@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ravimahfunda.multimedia.helloworld.ResultActivity"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WINNER !"
+        android:textSize="28dp"/>
+
+    <TextView
+        android:id="@+id/lbWinnerTeam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEAM A"
+        android:textSize="52dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btRematch"
+        android:text="REMATCH"
+        android:layout_marginTop="48dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
